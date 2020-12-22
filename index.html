@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title> index </title>
+	<!-- CSS Code -->
+	<link rel="stylesheet" href="css/Style.css">
+	<link rel="stylesheet" href="css/Style1.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+	<link rel="stylesheet" href="css/style3.css">
+	<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<link rel="stylesheet" href="jquery.hislide.css">
+	<meta name="viewport" content="initial-scale=1,width=device-width"/>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style5.css">
+	<link rel="stylesheet" href="jquery.hislide.css">
+	<link rel="stylesheet" href="css/style6.css">
+	<link rel="stylesheet" href="css/style4.css">
+
+	<link rel="stylesheet" href="fonts.css">
+
+	<script src="js/jquery-latest.js"></script>
+	<script src="js/arriba.js"></script>
+<script>
+	 $(function(){
+
+   $('a[href*=#]').click(function() {
+
+	if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+		&& location.hostname == this.hostname) {
+			var $target = $(this.hash);
+			$target = $target.length && || $('[name=' + this.hash.slice(1) +']');
+			if ($target.length) {
+				var targetOffset = $target.offset().top;
+				$('html,body').animate({scrolltop: targetOffset}, 1000);
+				return false;
+			}
+		}
+	});
+});
+	</script>
+	<style>
+		* {
+		  box-sizing:border-box;
+		}
+		
+		
+		@media screen and (max-width:800px) {
+		  .left, .main, .right {
+			width:100%; 
+		  }
+		}
+		</style>
+	</head>
+	<body>
+	<span class="ir-arriba icon-arrow-up"></span>
+	<section>
+	<div class="header-area">
+		<div class="menu">
+			<div class="logo">
+				<img src="img/logo.png" alt="">
+			</div>
+			<ul class="nav-area">
+				<li><a href="#">INICIO</a></li>
+				<li><a href="#servicio">SERVICIO</a></li>
+				<li><a href="#seccion3">PRODUCTO</a></li>
+				<li><a href="#seccion4">EQUIPO</a></li>
+				<li><a href="#seccion4l">QUIENES SOMOS</a></li>
+				<li><a href="#seccion5">GALERIA</a></li>
+				<li><a href="#seccion6">CONTACTO</a></li>
+			</ul>
+		</div>
+		<div class="banner-text">
+			<h1>Pasteleria <span>"Sweet Dreams"</span></h1>
+			<p>Somos una pasteleria que tiene unos productos exquisitos y de alta calidad a un buen precio, todo preparado por nuestros mejores pasteleros
+			con mucha dedicacion</p>
+
+		</div>
+	</div>
+	</section>
+
+	<section class="parrallax" id="servicio" style="max-width:100%;height:auto;">
+<div class="wrapper">
+	<div class="container">
+		<div class="row">
+			<div class=" w3ls_banner_bottom_left1">
+		<h2>SERVICIO</h2>
+		<div class="line"></div>
+		<div class="single-service">
+			<div class="social"><i class="fa fa-file-photo-o"></i></div>
+			<span></span>
+			<h3>Servicio 1</h3>
+			<p>Ofrecemos servicio de repostería a pequeños negocios al igual que a nivel comercial. Cubrimos cualquier tipo de evento: Bodas , Quince Años, Bautizos, Empresariales, Cumpleaños, ó cualquier otro tipo de evento ó festividad.</p>
+		</div>
+		<div class="single-service">
+			<div class="social"><i class="fa fa-laptop"></i></div>
+			<span></span>
+			<h3>Servicio 2</h3>
+			<p>Ofrecemos servicio de repostería a pequeños negocios al igual que a nivel comercial. Cubrimos cualquier tipo de evento: Bodas , Quince Años, Bautizos, Empresariales, Cumpleaños, ó cualquier otro tipo de evento ó festividad..</p>
+		</div>
+		<div class="single-service">
+			<div class="social"><i class="fa fa-pie-chart"></i></div>
+			<span></span>
+			<h3>Servicio 3</h3>
+			<p>Ofrecemos servicio de repostería a pequeños negocios al igual que a nivel comercial. Cubrimos cualquier tipo de evento: Bodas , Quince Años, Bautizos, Empresariales, Cumpleaños, ó cualquier otro tipo de evento ó festividad.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+	</section>
+
+	<section class="parrallax" id="seccion3" style="max-width:100%;height:auto;" > 
+<div class="team-area">
+			<h2>Producto</h2>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 w3ls_banner_bottom_left">
+					<div class="w3ls_banner_bottom_left1">
+					<div class="card text-center">
+						<img src="img/pastel1.jpg" alt="" class="card-img">
+						<div class="card-body">
+							<h4 class="cardtitle">Pastel de chocolate</h4>
+
+							<p class="text">
+								pastel de puro chocolate 
+								con crema de chocolate.
+
+								(S/ 10.00)
+
+							</p>
+							<button class="button">Comprar</button>
+						</div>
+					</div>
+				</div>
+				</div>
+
+				<div class="col-md-4 w3ls_banner_bottom_left">
+					<div class="w3ls_banner_bottom_left1">
+					<div class="card text-center">
+						<img src="img/pastel2.jpg" alt="" class="card-img">
+						<div class="card-body">
+							<h4 class="cardtitle">Pastel de Crema</h4>
+
+							<p class="text">
+								Pastel de vainilla 
+								con chocolate y un fondant de
+								fresa.
+
+								(S/ 30.00)
+							</p>
+							<button class="button">Comprar</button>
+						</div>
+					</div>
+				</div>
+				</div>
+				<div class="col-md-4 w3ls_banner_bottom_left">
+					<div class="w3ls_banner_bottom_left1">
+					<div class="card text-center">
+						<img src="img/pastel3.jpg" alt="" class="card-img">
+						<div class="card-body">
+							<h4 class="cardtitle">Pastel de fresa</h4>
+
+							<p class="text">
+								Pastel de fresa rellana 
+								 con una crema 
+								de fresa natural
+
+								(S/ 38.00)
+							</p>
+							<button class="button">Comprar</button>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	</section>
+
+
+
+
+	<section class="parrallax" id="seccion4" style="max-width:100%;height:auto;"> 
+					<h2>NUESTRO EQUIPO</h2>
+
+	<div class="box-area">
+		<div class="single-box">
+			<div class="img-area">
+			</div>	
+				<div class="img-text">
+					<span class="header-text"><strong>Camila Ramos</strong></span>
+					<p class="texto" >Experta en la decoracion de nuestros pasteles, tiene una especialdad unica, gracias a que es parte de nuestro equipo podemos 
+					obtener unos buenos postres</p>
+				</div>
+			
+		</div>
+		<div class="single-box">
+			<div class="img-area">
+			</div>
+				<div class="img-text">
+					<span class="header-text"><strong>Sidrig Rojas</strong></span>
+					<style type="text/css"></style>
+					<p >Experta en la Preparacion de nuestros pasteles, prepara los mejores pasteles, gracias a que es parte de nuestro equipo podemos 
+					obtener unos buenos postres</p>
+				</div>
+			
+		</div>
+		<div class="single-box">
+			<div class="img-area">
+			</div>
+				<div class="img-text">
+					<span class="header-text"><strong>Juan Cordova</strong></span>
+					<p >Experto en la decoracion de nuestros pasteles tiene una especialdad unica, gracias a que es parte de nuestro equipo podemos 
+					obtener unos buenos postres</p>
+				</div>
+	</section>
+
+	<section class="parrallax" id="seccion4l" style="max-width:100%;height:auto;">
+				<h2>QUIENES SOMOS</h2>
+<div class="header"></div>
+	<div class="content">
+		<p>En Pastelería Sweet Dreams tenemos una amplia variedad de pasteles y postres hechos a mano y de forma casera. La elaboración de nuestros pasteles y postres siguen las recetas tradicionales que han estado en nuestra Familia por dos generaciones. Ofrecemos varios servicios de repostería que ponemos a su disposición.
+
+		Contamos con todo tipo de decorado, logos de compañías, escudos de escuelas, personajes infantiles y de caricatura, mascotas comerciales ó cualquier otro diseño que pueda ser plasmado en un pastel. Nuestros diseños pueden ser dibujados, realzados o con figurines. También podemos decorar tu pastel con flores naturales, flores artificiales o cualquier otra figura.
+
+		Ofrecemos servicio de repostería a pequeños negocios al igual que a nivel comercial. Cubrimos cualquier tipo de evento: Bodas , Quince Años, Bautizos, Empresariales, Cumpleaños, ó cualquier otro tipo de evento ó festividad.</p>
+		
+	</div>
+	</section>
+
+	<section class="parrallax" id="seccion5" style="max-width:100%;height:auto;">
+						<h2>GALERIA</h2>
+	<div class="img-area hi-slide">
+		<div class="hi-prev"></div>
+		<div class="hi-next "></div>
+		<ul>
+			<li><img src="img/1.jpg" ></li>
+			<li><img src="img/02.jpg" ></li>
+			<li><img src="img/03.jpg" ></li>
+			<li><img src="img/4.jpg" ></li>
+			<li><img src="img/5.jpg" ></li>
+			<li><img src="img/6.jpg" ></li>
+			<li><img src="img/7.jpg" ></li>
+		</ul>
+	</div>
+	
+
+	<script src="jquery-3.1.1.min.js"></script>
+	<script src="jquery.hislide.js"></script>
+	<script>
+		$('.img-area').hiSlide();
+	</script>
+		
+	</section>
+
+	<section class="parrallax" id="seccion6" style="max-width:100%;height:auto;">
+							<h2>CONTACTO</h2>
+
+			<div class="contact-in">
+			<div class="contact-map"></div>
+			
+			<div class="contact-form">
+				<h1>contactanos</h1>
+				<form>
+					<input type="text" placeholder="Nombre" class="contact-form-txt" />
+					<input type="text" placeholder="E-mail" class="contact-form-txt" />
+					<textarea placeholder="Mensaje" class="contact-form-textarea"></textarea>
+					<input type="submit" placeholder="enviar" class="contact-form-btn">
+				</form>
+			</div>	
+		</div>		
+		</div>
+	</section>
+	</section>
+
+
+	</section>
+	</body>
+</html>

@@ -1,0 +1,132 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+	font-family: century gothic;
+	box-sizing: border-box;
+}
+html, body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding:0;
+
+}
+
+.contenido{
+	width: 500px; margin: 20px auto; text-align: justify;
+}
+
+.contenido p{
+	margin-bottom: 1em;
+}
+
+.ir-arriba{
+	display: none;
+	padding: 20px; background-color: #ab0f6a;
+	font-size: 20px; color: #fff; cursor: pointer;
+	position: fixed; bottom: 20px; right: 20px;
+}
+}
+section{
+	width: 100%;
+	height: 100%;
+	padding:0;
+	margin: 0;
+	background: green;
+}
+.parrallax{
+	background-color: #fff;
+	background-attachment: fixed;/*imagen fija*/
+	background-repeat: no-repeat;/*no te repitas*/
+	background-position: 50% 50%; /*para que la imagen se centre*/
+	/*background: #fff fixed no-repeat 50% 50%;*/
+	background-size: cover;/*imagen se vera como portada*/
+}
+
+.parrallax h2{
+	padding: 5%;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	font-size: 60px;
+	color: #fff;
+	margin: 0;
+}
+.parrallax p{
+	margin: 0px 20px 20px 20px;
+	text-align: justify;
+}
+span a{
+	display: block;
+	width: 95px;
+	margin-top: 20%;
+	padding:10px;
+	background: black;
+	color:#fff;
+	text-decoration:none;
+	text-align: center;
+}
+
+#servicio{
+	background-color: #f2aee5;
+	border-bottom: 10px solid #f2aee5;
+	width: 100%;
+	height: 130%;
+
+}
+#seccion3{
+	background-color: #f2aee5;
+	border-bottom: 10px solid #f2aee5;
+	width: 100%;
+}
+#seccion4{
+	background-color: #f2aee5;	
+	border-bottom: 10px solid #f2aee5;
+	width: 100%;
+}
+
+#seccion4l{
+	background-color: #f2aee5;
+	border-bottom: 10px solid #f2aee5;
+	width: 100%;
+}
+#seccion5{
+	background-color: #f2aee5;
+	border-bottom: 10px solid #f2aee5;
+	width: 100%;
+}
+#seccion6{
+	background-color: #f2aee5;
+	border-bottom: 10px solid #f2aee5;
+	width: 100%;
+}
+.team-area{
+	padding: 25px;
+}
+.card-img{
+	width: 100%;
+	height: 225px;
+}
+.card, .button{
+	box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
+	background: #e6e7ee;
+	border-radius: none;
+	outline: none;
+
+}
+.text {
+	padding: 0 10%;
+}
+.button{
+	margin-bottom: 20px;
+	margin-top: 15px;
+	border-radius: 5px;
+	padding: 10px 15px;
+
+}
+#seccion4{
+
+	background-color: #f2aee5;
+	border-bottom: 10px solid #f2aee5;
+	width: 100%;
+}
